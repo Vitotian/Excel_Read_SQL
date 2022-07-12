@@ -1,5 +1,5 @@
 # Excel Read SQL
-Read SQL Data with only ONE Function!
+Pull SQL Data with only ONE Function!
 
 Check your Excel fits:
 
@@ -11,14 +11,14 @@ NOTE: If EXCEL version is below `2019` you may use `Ctrl+Shift+Enter` to apply a
 
 ## Installation
 
-- copy folder to local (e.g `src\Mysql` to `D:\lib\vba_sql`)
+- copy folder to local (e.g. `src\Mysql` to `D:\lib\vba_sql`)
 - In EXCEL: Developer -> Excel Add-ins -> Browse (D:\lib\vba_sql\Mysql) -> `mysql_UTF8.xlam` and check on `mysql_UTF8` -> Ok
 - Enjoy
 
-Or if you have own libary:
+Or if you aleady have library:
 
 - import `src\xxx\xxx.bas` and `src\vba_list\List.cls` to your own project
-- copy dll files (e.g `D:\lib\sqllib`)
+- copy all dependen lib files to local (e.g. `D:\lib\sqllib`)
 - **put real lib dir path into `xxxx_Initialize()`** --> `xxxx_Initialize("D:\lib\sqllib")`
 
 ## Usage
@@ -55,7 +55,7 @@ Codes are basically from [SQLiteForExcel](https://github.com/govert/SQLiteForExc
 Other encodings please check [msdoc](https://docs.microsoft.com/en-us/windows/win32/intl/code-page-identifiers) to get encoding value
 
 
-(e.g.	`iso-8859-1`)
+(e.g. `iso-8859-1`)
 
 ### mysql_GB2312.bas
 
@@ -68,4 +68,4 @@ Set `SYSENCODING`=28591
 
 ## Dependencies
 
-[VBA_List](https://github.com/Vitosh/VBA_List) in \src\vba_list
+[VBA_List](https://github.com/Vitosh/VBA_List)
