@@ -44,7 +44,9 @@ Or if you aleady have library:
 ```
 
 ### Sqlite
-Codes are basically from [SQLiteForExcel](https://github.com/govert/SQLiteForExcel), but keep `Read` related functions.
+Codes are basically from [SQLiteForExcel](https://github.com/govert/SQLiteForExcel) [Govert@MIT LICENSE]
+
+but keep `Read` related functions.
 
 
 ```
